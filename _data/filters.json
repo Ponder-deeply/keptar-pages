@@ -1,17 +1,4 @@
 {
-  "medium": [
-    "Festészet",
-    "Fotográfia",
-    "Grafika",
-    "Kerámia",
-    "Szobrászat"
-  ],
-  "region": [
-    "Baranya",
-    "Budapest",
-    "Csongrád-Csanád",
-    "Győr-Moson-Sopron",
-    "Hajdú-Bihar",
-    "Külföld"
-  ]
+  "medium": [],
+  "region": []
 }
