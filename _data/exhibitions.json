@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Városi fények",
+    "when": "current",
+    "date": "2026. október 22. – 2026. november 19.",
+    "start": "2026-10-22T13:51:16.805Z",
+    "venue": "Teszt Galéria, Budapest, Király utca 1.",
+    "artists": [
+      {
+        "name": "Kovács Anna (teszt)",
+        "handle": "teszt.kovacs.anna"
+      },
+      {
+        "name": "Tóth Máté (teszt)",
+        "handle": "teszt.toth.mate"
+      }
+    ],
+    "description": "Csoportos teszt kiállítás.",
+    "url": null,
+    "image": null
+  },
+  {
+    "title": "Mecseki lenyomatok",
+    "when": "upcoming",
+    "date": "2026. november 12. – 2026. december 13.",
+    "start": "2026-11-12T13:51:16.835Z",
+    "venue": "Teszt Műhely, Pécs, Széchenyi tér 1.",
+    "artists": [
+      {
+        "name": "Nagy Bence (teszt)",
+        "handle": "teszt.nagy.bence"
+      }
+    ],
+    "description": null,
+    "url": null,
+    "image": null
+  }
+]

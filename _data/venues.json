@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Teszt Galéria",
+    "type": "Galéria",
+    "address": "Király utca 1., Budapest",
+    "website": null,
+    "map": "https://www.openstreetmap.org/?mlat=47.4979&mlon=19.0402#map=17/47.4979/19.0402"
+  },
+  {
+    "name": "Teszt Múzeum",
+    "type": "Múzeum",
+    "address": "Dóm tér 1., Szeged",
+    "website": null,
+    "map": "https://www.openstreetmap.org/?mlat=46.253&mlon=20.1414#map=17/46.253/20.1414"
+  },
+  {
+    "name": "Teszt Műhely",
+    "type": "Műterem",
+    "address": "Széchenyi tér 1., Pécs",
+    "website": null,
+    "map": "https://www.openstreetmap.org/?mlat=46.0727&mlon=18.2323#map=17/46.0727/18.2323"
+  }
+]
