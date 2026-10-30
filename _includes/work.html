@@ -16,10 +16,9 @@
     {% endif %}
   </div>
   <figcaption class="work__caption">
-    <span class="work__title">{{ work.title | escape }}{% if work.year %}, {{ work.year }}{% endif %}</span>
+    {% if work.title %}<span class="work__title">{{ work.title | escape }}{% if work.year %}, {{ work.year }}{% endif %}</span>{% endif %}
     <span class="work__credit">
-      {{ artist.name | escape }} ·
-      <a href="{{ credit_url }}" target="_blank" rel="noopener noreferrer">@{{ artist.handle }} az Instagramon</a>
+      {% if artist.named %}{{ artist.name | escape }} · {% endif %}<a href="{{ credit_url }}" target="_blank" rel="noopener noreferrer">@{{ artist.handle }} az Instagramon</a>
     </span>
   </figcaption>
 </figure>

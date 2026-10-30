@@ -4,9 +4,11 @@ nav: muveszek
 ---
 {% assign artist = page %}
 <article>
+  <p class="back"><a href="{{ '/' | relative_url }}">← Művészek</a></p>
+
   <header class="profile-header">
-    <h1>{{ artist.name | escape }}</h1>
-    <a href="https://www.instagram.com/{{ artist.handle }}/" target="_blank" rel="noopener noreferrer">@{{ artist.handle }}</a>
+    <h1>{% if artist.named %}{{ artist.name | escape }}{% else %}@{{ artist.handle }}{% endif %}</h1>
+    <a href="https://www.instagram.com/{{ artist.handle }}/" target="_blank" rel="noopener noreferrer">{% if artist.named %}@{{ artist.handle }} az Instagramon{% else %}Instagram-profil{% endif %}</a>
   </header>
 
   <dl class="profile-meta">
@@ -28,7 +30,10 @@ nav: muveszek
 
   <h2>Művek</h2>
   {% if artist.works.size == 0 %}
-    <p class="muted">Még nincs feltöltött mű.</p>
+    <div class="empty-works">
+      <p>Ennek a profilnak még nincsenek művei a Képtárban.</p>
+      <a class="button button--secondary" href="https://www.instagram.com/{{ artist.handle }}/" target="_blank" rel="noopener noreferrer">Munkái az Instagramon</a>
+    </div>
   {% else %}
     <ul class="works">
       {% for work in artist.works %}
